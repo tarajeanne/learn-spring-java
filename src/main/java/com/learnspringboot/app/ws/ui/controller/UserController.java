@@ -15,7 +15,7 @@ import com.learnspringboot.app.ws.shared.dto.UserDto;
 import com.learnspringboot.app.ws.service.UserService;
 
 @RestController
-@RequestMapping("users") //http://localhost:8080/users
+@RequestMapping("user") //http://localhost:8080/users
 public class UserController {
 
   @Autowired
